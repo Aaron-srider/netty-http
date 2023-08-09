@@ -1,0 +1,28 @@
+logging:
+  level:
+    root: debug
+    javax:
+      management:
+        remote:
+          rmi: info
+    _org.springframework.web.servlet.HandlerMapping.Mappings: off
+    net.sf.ehcache: info
+    io.netty: info
+    io.netty.handler.logging.LoggingHandler: debug
+    org.apache: info
+    org.hibernate: info
+    com.alibaba.druid.pool.PreparedStatementPool: info
+    org.springframework.orm.jpa.JpaTransactionManager: info
+    com.zaxxer.hikari: info
+    sun.rmi: info
+    org:
+      mybatis:
+        spring:
+          mapper:
+            ClassPathMapperScanner: info
+      hibernate:
+        validator:
+          internal:
+            engine: info
+      springframework: info
+      springframework.context.support.PostProcessorRegistrationDelegate: warn
